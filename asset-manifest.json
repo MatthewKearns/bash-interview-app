@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/bash-interview-app/static/css/main.3aa01149.chunk.css",
+    "main.js": "/bash-interview-app/static/js/main.33866001.chunk.js",
+    "main.js.map": "/bash-interview-app/static/js/main.33866001.chunk.js.map",
+    "runtime-main.js": "/bash-interview-app/static/js/runtime-main.3a62a74b.js",
+    "runtime-main.js.map": "/bash-interview-app/static/js/runtime-main.3a62a74b.js.map",
+    "static/js/2.21f498b0.chunk.js": "/bash-interview-app/static/js/2.21f498b0.chunk.js",
+    "static/js/2.21f498b0.chunk.js.map": "/bash-interview-app/static/js/2.21f498b0.chunk.js.map",
+    "index.html": "/bash-interview-app/index.html",
+    "static/css/main.3aa01149.chunk.css.map": "/bash-interview-app/static/css/main.3aa01149.chunk.css.map",
+    "static/js/2.21f498b0.chunk.js.LICENSE.txt": "/bash-interview-app/static/js/2.21f498b0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a62a74b.js",
+    "static/js/2.21f498b0.chunk.js",
+    "static/css/main.3aa01149.chunk.css",
+    "static/js/main.33866001.chunk.js"
+  ]
+}
