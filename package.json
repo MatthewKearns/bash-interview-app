@@ -6,6 +6,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -16,18 +18,20 @@
     "support",
     "analyst"
   ],
-  "author": "Your Name",
+  "author": "Matthew Kearns",
   "license": "MIT",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3"
   },
-  "devDependencies": {},
-  "homepage": "http://yourhomepage.com",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "homepage": "https://MatthewKearns.github.io/bash-interview-app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/bash-interview-app.git"
+    "url": "https://github.com/MatthewKearns/bash-interview-app.git"
   },
   "browserslist": {
     "production": [
