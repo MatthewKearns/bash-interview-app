@@ -1,12 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bash Interview App</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Bash Interview Prep | Trading Ops</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+              mono: ['"JetBrains Mono"', 'Consolas', '"Courier New"', 'monospace'],
+            },
+            colors: {
+              terminal: '#ff6900',
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+      /* Custom scrollbar */
+      ::-webkit-scrollbar { width: 6px; height: 6px; }
+      ::-webkit-scrollbar-track { background: transparent; }
+      .dark ::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
+      ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+
+      /* Smooth scroll */
+      html { scroll-behavior: smooth; }
+
+      /* Code block text selection */
+      pre::selection, code::selection { background: rgba(255,105,0,0.3); }
+
+      /* Transition for theme changes */
+      *, *::before, *::after { transition-property: background-color, border-color, color; transition-duration: 150ms; }
+      button, a { transition-property: all; transition-duration: 150ms; }
+    </style>
 </head>
-<body>
+<body class="font-sans">
     <div id="root"></div>
     <script src="bundle.js"></script>
 </body>

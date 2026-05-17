@@ -1,15 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Interview from './pages/Interview';
 import './index.css';
+import App from './App';
 
-const App = () => {
-    return (
-        <div className="container">
-            <h1>Bash Interview Preparation</h1>
-            <Interview />
-        </div>
-    );
-};
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
